@@ -1,0 +1,44 @@
+.preamble{
+    background-color: rgb(91, 156, 134);
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    flex-direction: column;
+    
+ 
+    
+}
+
+.preamble h3{
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    padding: 40px;
+    height: 200px;
+    width: 210px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    flex-direction: column;
+    line-height: 75px;
+
+}
+
+.preamble p{
+    background-color: rgb(255, 245, 63);
+    
+    padding: 40px;
+    height: 230px;
+    width: 470px;
+    margin-left: 20px;
+    font-size: 20px;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+

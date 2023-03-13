@@ -1,0 +1,11 @@
+.main{
+    float: left;
+    border: solid black;
+    width: 49%;
+    }
+
+aside{
+    float: left;
+    border: solid black;
+    width: 49%;
+    }

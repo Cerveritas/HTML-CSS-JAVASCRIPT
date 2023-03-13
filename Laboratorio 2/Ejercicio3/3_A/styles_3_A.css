@@ -1,0 +1,16 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.page-wrapper :first-child{
+    flex-basis: 100%;
+}
+
+.main, aside{
+    flex:1;
+    border: solid 1px black;
+}

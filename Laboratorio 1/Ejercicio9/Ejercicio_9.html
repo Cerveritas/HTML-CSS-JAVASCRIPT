@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio_9</title>
+
+        <style>
+            a {
+  color: blue;
+}
+
+/* Enlaces internos, comenzando con "#" */
+a[href^="#"] {
+  background-color: gold;
+}
+
+/* Enlaces con "example" en cualquier parte de la URL */
+a[href*="example"] {
+  background-color: silver;
+}
+
+/* Enlaces con "insensitive" en cualquier parte de la URL,
+   independientemente de las mayúsculas */
+a[href*="insensitive" i] {
+  color: cyan;
+}
+
+/* Enlaces que terminan en ".org" */
+a[href$=".org"] {
+  color: red;
+}
+        </style>
+
+    </head>
+    <body>
+
+        <ul>
+            <li><a href="#internal">Enlace interno</a></li>
+            <li><a href="http://example.com">Enlace de ejemplo</a></li>
+            <li><a href="#InSensitive">Enlace interno insensible Insensitive</a></li>
+            <li><a href="http://example.org">Ejemplo de enlace .org</a></li>
+          </ul>
+
+    </body>
+</html>

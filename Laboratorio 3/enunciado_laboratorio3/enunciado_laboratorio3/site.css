@@ -1,0 +1,140 @@
+body { 
+  
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #999;
+}
+
+*{
+    margin: 0;
+}
+
+
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #a493c0;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+ul > li {
+    padding: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline;
+    list-style: none;
+}   
+
+main {
+    display:block;
+    background-image: url(images/background.png);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%; 
+}
+
+footer {
+    padding: 15px;  
+    
+    
+}
+
+aside {
+    text-align: center;
+    padding: 2em;
+}
+
+article {
+    width: 75%;
+    padding: 2em;
+
+    margin-bottom: 40%; /*El margen de abajo es provisional de manera que con esto queda mas o menos correcto*/
+}
+
+
+
+
+@media screen and (min-width: 768px){
+
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside {
+        margin-left: 2%;
+    }
+
+    .columns-desktop{
+        display: flex;
+    }
+
+       
+}
+
+.title {
+    width: 50%;
+    font-weight: bolder;
+}
+
+
+
+.columns{
+    width: 100%;
+    display: flex;   
+    
+  
+}
+
+.pie{
+
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 1px #ccc;
+   
+    
+}
+
+.pie > img{
+    width: 100%;
+}
+
+
+.price{
+    
+    width: 50%;
+    text-align: right;
+
+}
+
+button {
+    background-color: #ffb3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7%;
+}
+

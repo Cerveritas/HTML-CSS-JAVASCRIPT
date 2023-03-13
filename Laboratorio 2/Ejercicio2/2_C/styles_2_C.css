@@ -1,0 +1,36 @@
+.preamble{
+    background-color: rgb(91, 156, 134);
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.preamble h3{
+    background-color: rgb(207, 207, 207);
+    float:left;
+    padding: 40px;
+    height: 200px;
+    width: 210px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.preamble p{
+    background-color: rgb(255, 245, 63);
+    float: left;
+    padding: 40px;
+    height: 250px;
+    width: 240px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
