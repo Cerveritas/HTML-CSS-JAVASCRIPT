@@ -1,0 +1,98 @@
+body {background-color:rgb(189, 189, 189);
+      margin-left: 10%;
+      margin-right: 10%;}
+
+h1 {color: rgb(0, 81, 255);
+    font-family:cursive;
+    background-color: aqua;
+    text-align: center;
+    font-size: 40px;}
+
+h2 {text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+
+h3 {text-align:left;}
+
+h5 {text-align: center;
+    font-size: 30px;
+    color:rgb(109, 0, 0)}
+
+h4{text-align: center;
+   font-size: 20px;
+   margin-left: 100px;
+   margin-right: 100px;}
+   
+
+h6 {font-size: large;
+    font-family:initial;}
+
+footer {text-align: center;
+        color: #8d8d8d;}
+
+form{text-align: left;
+  font-size: 30px;}
+
+a:link, a:visited {background-color: #e23c3c;
+                   border: 1px solid #24728a;
+                   color: rgb(0, 0, 0);
+                   padding: 10px 27px;
+                   text-align: center;
+                   text-decoration: none;
+                   font-size: 10px;
+                   cursor: pointer;
+                    border-radius: 15%;
+                border-style: outset;}
+      
+a:hover, a:active {background-color: rgb(0, 89, 255);}
+
+div {text-align: center;}
+
+hr {color: rgb(255, 0, 0);
+    font-size: 10%;}
+
+#contenedor {display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;}
+      
+#contenedor > div {width: 50%;}
+
+textarea {height: 300px;
+          width: 400px;}
+
+        
+
+          /*** ESTILOS BOTÓN GROW ELLIPSE ***/
+.ov-btn-grow-ellipse {
+    background: #fff; /* color de fondo */
+    color: #4741d7; /* color de fuente */
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-grow-ellipse:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .ov-btn-grow-ellipse::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+  .ov-btn-grow-ellipse:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+  }
+
