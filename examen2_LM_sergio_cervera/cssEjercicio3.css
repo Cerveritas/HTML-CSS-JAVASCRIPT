@@ -1,0 +1,29 @@
+h1, h2{
+    text-align: center;
+}
+
+
+
+#autores {
+    
+    float:left;
+    border:3px solid black;
+    margin: 0;
+    
+}
+
+main,aside, section {
+    border: 1px solid;
+    margin: 5px;
+}
+
+#ingredientes , dl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
